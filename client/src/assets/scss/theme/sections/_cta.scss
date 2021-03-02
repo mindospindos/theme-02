@@ -1,0 +1,44 @@
+.cta {
+
+	&.invert-color,
+	.invert-color {
+		color: get-color(primary, 4);
+	}
+
+	.button {
+		padding-left: 52px;
+		padding-right: 52px;
+	}
+
+	&.has-bg-color-half {
+		position: relative;
+		
+		&::before {
+			content: '';
+			width: 100%;
+			height: 50%;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			background: get-color(dark, 1);
+			z-index: -2;
+		}
+	}
+}
+
+.cta-inner {
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: get-color(primary, 1);
+	background-image: url(../../../images/cta-illustration.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 30px;
+}
+
+@include media( '>medium' ) {
+
+	.cta-inner {
+		background-position: center top;
+	}
+}

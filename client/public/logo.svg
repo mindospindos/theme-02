@@ -1,0 +1,18 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient y2="1" x2="1" y1="0.77344" x1="0.95313" id="svg_4">
+   <stop offset="0" stop-color="#21ff8c"/>
+   <stop offset="1" stop-color="#de0073"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="1002" width="1002" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="rotate(-3 408.9092712402331,277.74398803710966) matrix(3.612022992112884,0,0,3.2262160948631973,17.258751231190217,-808.003750785916) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Nunito Light'" font-size="250" id="svg_1" y="418.79304" x="2.55068" stroke-opacity="null" stroke-width="2" fill="url(#svg_4)">m</text>
+  <text stroke="#000" transform="rotate(-3 699.3949584960867,484.4234619140632) matrix(3.612022992112884,0,0,3.2262160948631973,17.258751231190217,-808.003750785916) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Nunito Light'" font-size="250" id="svg_5" y="482.85192" x="116.98394" stroke-opacity="null" stroke-width="2" fill="url(#svg_4)">p</text>
+ </g>
+</svg>

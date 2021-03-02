@@ -1,0 +1,98 @@
+[class*=illustration-] {
+	position: relative;
+
+	&::after {
+		pointer-events: none;
+	}
+}
+
+[class*=illustration-element-]::after {
+	z-index: -1;
+}
+
+[class*=illustration-section-]::after {
+	z-index: -2;
+}
+
+// Hero illustration
+.illustration-section-01::after {
+	@include illustration('illustration-section-01.svg', 100%, 443px, top);
+}
+
+// Features tiles illustration
+.illustration-section-02::after {
+	@include illustration('illustration-section-02.svg', 100%, 663px, top, null, 106px);
+}
+
+// Features tiles illustration
+.illustration-section-03::after {
+	@include illustration('illustration-section-03.svg', 100%, 274px, top, null, -15px);
+}
+
+// Cta illustration
+.illustration-section-04::after {
+	@include illustration('illustration-section-04.svg', 100%, 160px, bottom, null, -34px);
+}
+
+// Pricing section illustration
+.illustration-section-05::after {
+	@include illustration('illustration-section-05.svg', 200%, 274px, top, null, -16px);
+}
+
+// Generic illustration
+.illustration-section-06::after {
+	@include illustration('illustration-section-06.svg', 100%, 274px, top, null, 370px);
+}
+
+// Behind hero figure
+.illustration-element-01 {
+
+	&::after {
+		@include illustration('illustration-element-01.svg', 200%, 200%);
+	}
+
+	// gradient
+	&::before {
+		@include illustration('illustration-element-01b.svg', 100vw, 120%, bottom, null, -65%);
+		background-size: cover;
+		background-repeat: repeat;
+		pointer-events: none;
+		z-index: -3;
+	}
+}
+
+// Behind features split image
+.illustration-element-02::after {
+	@include illustration('illustration-element-02.svg', 200%, 200%);
+}
+
+.illustration-element-03::after {
+	@include illustration('illustration-element-03.svg', 200%, 200%);
+}
+
+.illustration-element-04::after {
+	@include illustration('illustration-element-04.svg', 200%, 200%);
+}
+
+// Behind team
+.illustration-element-05::before {
+	@include illustration('illustration-element-05.svg', 200%, 200%);
+	pointer-events: none;
+	z-index: -1;
+}
+
+.illustration-element-06::after {
+	@include illustration('illustration-element-06.svg', 200%, 200%);
+	z-index: 0;
+}
+
+.illustration-element-07::before {
+	@include illustration('illustration-element-07.svg', 200%, 200%);
+	pointer-events: none;
+	z-index: -1;
+}
+
+.illustration-element-08::after {
+	@include illustration('illustration-element-08.svg', 300%, 300%);
+	z-index: 0;
+}
